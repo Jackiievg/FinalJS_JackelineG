@@ -1,0 +1,58 @@
+[
+    {
+        "foodName": "Tacos",
+        "caloriesPer100g": 600
+    },
+    {
+        "foodName": "Manzana",
+        "caloriesPer100g": 50
+    },
+    {
+        "foodName": "Banana",
+        "caloriesPer100g": 78
+    },
+    {
+        "foodName": "Arroz",
+        "caloriesPer100g": 130
+    },
+    {
+        "foodName": "Pollo",
+        "caloriesPer100g": 165
+    },
+    {
+        "foodName": "Leche",
+        "caloriesPer100g": 42
+    },
+    {
+        "foodName": "Huevos",
+        "caloriesPer100g": 60
+    },
+    {
+        "foodName": "Pan",
+        "caloriesPer100g": 150
+    },
+    {
+        "foodName": "Lechuga",
+        "caloriesPer100g": 15
+    },
+    {
+        "foodName": "Carne",
+        "caloriesPer100g": 200
+    },
+    {
+        "foodName": "Queso",
+        "caloriesPer100g": 402
+    },
+    {
+        "foodName": "Berenjena",
+        "caloriesPer100g": 25
+    },
+    {
+        "foodName": "Fideos",
+        "caloriesPer100g": 111
+    },
+    {
+        "foodName": "Naranja",
+        "caloriesPer100g": 47
+    }
+]

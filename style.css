@@ -1,0 +1,85 @@
+/* Estilos de toda la página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7d9c90;
+    margin: 0;
+    padding: 0;
+    background-image: url('multimedia/sandia.jpg');
+}
+.h1 {
+    text-align: center;
+    background-color: #c76b6b;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+/*  botón de abrir o cerrar el formulario */
+#toggle-registration {
+    background-color: #3e2828;
+    color: #fff6f6;
+    border: none;
+    padding: 20px 30px; 
+    border-radius: 100%;
+    cursor: pointer;
+    position: fixed;
+    right: 20px; 
+    bottom: 20px; 
+    z-index: 999;
+}
+
+/* formulario de registro */
+.registration {
+    background-color: #f97070;
+    border: 1px solid #130404;
+    padding: 20px; 
+    width: 300px;
+    position: fixed;
+    right: -320px;
+    top: 50%;
+    transform: translateY(-80%);
+    transition: right 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    max-width: 90%; 
+    margin: 20px auto; 
+}
+
+/* sección de registro de usuario */
+.registration h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.registration label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.registration input[type="text"],
+.registration input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.registration button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}

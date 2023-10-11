@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <script src="productos.json"></script>
+    <title>Calculadora de Calorías</title>
+</head>
+<body>
+    <header>
+            <div class="h1"><h1>Calculadora de Calorías</h1></div>
+    </header>
+    <main>
+        <!-- Formulario para el registro -->
+        <button id="toggle-registration">Registrarse</button>
+        <div class="registration">
+            <h2>Registro</h2>
+            <h5>Estimado usuario debe registrarse para hacer uso de la calculadora.</h5><br>
+            <label for="username">Nombre de usuario:</label>
+            <input type="text" id="username" required>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" required>
+            <button id="register-button">Registrarse</button>
+        </div>
+            <!-- Formulario para el cálculo de calorías -->
+            <div class="center-container">
+                <div class="form hidden">
+                    <h1>¡Ahora a calcular!</h1>
+                    <label for="food">Selecciona un alimento:</label>
+                    <select id="food"></select>
+                    <label for="quantity">Cantidad (g):</label>
+                    <input type="number" id="quantity" min="1" value="100">
+                    <button id="calculate-button">Calcular</button>
+            </div>
+            <div id="result"></div>
+            <div id="despedida" class="hidden">
+                <p>¿Deseas realizar otro cálculo de calorías?</p>
+                <button id="otro-calculo-button">Sí</button>
+                <button id="salir-button">No</button>
+            </div> 
+    </main>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+</html>
